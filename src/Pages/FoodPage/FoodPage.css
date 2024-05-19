@@ -1,0 +1,22 @@
+.main-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.main-container input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.food-container {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}

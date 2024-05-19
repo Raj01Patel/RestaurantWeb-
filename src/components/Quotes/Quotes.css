@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.quotesSection{
+    padding-top: 5%;
+}
+.card{
+    /* border: 2px solid red; */
+    list-style: none;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12),
+0px 1px 2px 0px rgba(0,0,0,0.24);
+}
+.authorName{
+    font-size: 16px;
+    color: #9ca3af;
+}

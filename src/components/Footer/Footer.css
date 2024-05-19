@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    background: #f3f4f6;
+    text-align: center;
+    padding: 64px 100px;
+}
+
+.footer h3 {
+    color: #78bc65;
+}
+
+.footer>div>p {
+    padding: 10px 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.atag a {
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.atag a:hover {
+    color: gray;
+}
+
+.icon {
+    width: 100%;
+}
+
+.icon>div {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+
+.icon a {
+    font-size: 30px;
+    margin: 0 10px;
+    color: rgb(82, 75, 75);
+}
+
+.icon a:hover {
+    color: black;
+    cursor: pointer;
+}

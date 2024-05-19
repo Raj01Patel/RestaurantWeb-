@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.navdiv {
+    align-items: center;
+}
+
+.navbarItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    align-items: center;
+    font-size: 1.2px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.logo img {
+    height: 1.9rem;
+    margin-right: 5px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.link.active {
+    color: #1d4ed8; /* Or your preferred blue color */
+    /* Add other desired styles for active links, e.g., font-weight, background, etc. */
+  }
+
+.list .link:hover {
+    color: #1d4ed8;
+    cursor: pointer;
+}
+
+.getstartbtn {
+    background: #1d4ed8;
+    color: #fffefe;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 1.0rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.getstartbtn:hover {
+    background-color: #fff;
+    color: #4f42e5;
+    border: 1px solid #4f42e5;
+    cursor: pointer;
+}
